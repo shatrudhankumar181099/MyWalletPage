@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer Money "
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username or mobile number"
+        android:textSize="22sp"
+        android:layout_marginTop="5dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/Enteruser"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter username or mobile number"
+        android:backgroundTint="#B39F9F"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textSize="22sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnteAmount"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Amount"
+        android:backgroundTint="#B39F9F"
+        android:textSize="20sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btn_sbt"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/teal_700"/>
+    </LinearLayout>
+
+
+</LinearLayout>
